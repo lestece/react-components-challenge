@@ -7,9 +7,9 @@ function NavBarChild(props) {
                 <div>
                     <form>
                         <label for="username">Username:</label>
-                        <input type="text" id="username" value="username"/>
+                        <input type="text" id="username" placeholder="username"/>
                         <label for="password">Password:</label>
-                        <input type="password" id="password" value="password" />
+                        <input type="password" id="password" placeholder="password" />
                         <button onClick={()=>props.handleClick()}>Submit</button>
                     </form>
                 </div>
