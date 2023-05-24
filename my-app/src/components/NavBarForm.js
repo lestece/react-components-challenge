@@ -18,7 +18,6 @@ export class NavBarForm extends Component {
                 prevState.isLoggedIn === true ? false : true,
             };
         });
-        console.log(this.state.isLoggedIn)
     }
 
     render() {
